@@ -1,0 +1,15 @@
+import.java.util.Scanner;
+Public class Launch
+{
+public static void main(string[]args)
+{
+Scanner scan=new Scan(System.in);
+System.out.println("Enter the First Number");
+int num1 = Scan.nextInt();
+System.out.println(Enter the Second Number");
+int num2 = Scan.nextInt();
+System.out.println("Enter 1 for Add, 2 for Substract, 3 for Multiplication, 4 Division");
+int choice = Scan.nextInt();
+Switch(choice)
+{
+case 1: System.out.println(num1+num2)
